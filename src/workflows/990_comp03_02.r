@@ -481,7 +481,7 @@ comp3_02 <- function( pnombrewf )
   param_local <- exp_wf_init( pnombrewf ) # linea fija
 
   # Etapa especificacion dataset de la Segunda Competencia Kaggle
-  DT_incorporar_dataset( "~/buckets/b1/datasets/competencia_02.csv.gz")
+  DT_incorporar_dataset( "~/buckets/b1/datasets/competencia_03.csv.gz")
 
   CA_catastrophe_base( metodo="MachineLearning")
   FEintra_manual_base()
